@@ -1,0 +1,34 @@
+﻿config_id,Parameter ,Definition ,Units 
+1,Brakes: DATA_FRONT_SHARE ,"Defines the %  response for the front brakes of the vehicle. 50% indicates the brake torque is equal to the rear brakes, <50% indicates there is a larger torque applied at the rear ",% 
+2,Brakes: DATA_MAX_TORQUE ,Maximum braking torque which can be applied through the brakes system ,Nm 
+3,Drivetrain: DIFFERENTIAL_COAST ,The lock percentage of the differential when coasting (no load applied) ,% 
+4,Drivetrain: DIFFERENTIAL_POWER ,The lock percentage of the differential under power. This determines the torque split between the left and right wheels ,"% (100% is fully locked, 0% is fully unlocked) "
+5,Drivetrain: DIFFERENTIAL_PRELOAD ,The preload applied to the differential. A torque difference of X is required to unlock differential ,Nm 
+6,Suspensions: ARB_FRONT ,The effective wheel rate of the front anti roll bar ,Nm 
+7,Suspensions: ARB_REAR ,The effective wheel rate of the rear anti roll bar ,Nm 
+8,Suspensions: BASIC_CG_LOCATION ,The position of the center of mass along the vehicles length ,"% of wheelbase (50% indicates equally distribution, <50% indicates rear bias) "
+9,Suspensions: BASIC_WHEELBASE ,The distance from the centre-point of the rear wheels to the centre-point of the front wheels ,meters 
+10,Suspensions: FRONT_BUMP_STOP_RATE ,The spring rate of the front shocks “bump stops” ,Nm 
+11,Suspensions: FRONT_DAMP_BUMP ,The damping contribution of the front dampers where it is “compressing” due to a slow impact. ,Ns/m 
+12,Suspensions: FRONT_DAMP_FAST_BUMP ,The damping contribution of the front dampers where it is “compressing” due to a fast impact. ,Ns/m 
+13,Suspensions: FRONT_DAMP_REBOUND ,The damping contribution of the front dampers where it is “rebounding” from a slow impact. ,Ns/m 
+14,Suspensions: FRONT_PACKER_RANGE ,Total length of suspension trave for the front shocks ,m 
+15,Suspensions: FRONT_ROD_LENGTH ,Adjusts the ride height of the vehicle. Similar to coil-over adjustment of a vehicle ,meters 
+16,Suspensions: FRONT_SPRING_RATE ,The effective spring rate of the suspension corner from the wheel contact ,Nm 
+17,Suspensions: FRONT_STATIC_CAMBER ,The angles of the front wheels looking from a front-view. Negative camber is where the bottom-most section of the tyre is further outboard then the top-most ,degrees 
+18,Suspensions: FRONT_TOE_OUT ,The angle of the front wheels from a top-view perspective. Negative values represent the front wheels “toeing inwards” from neutral. ,meters 
+19,Suspensions: FRONT_TRACK ,The effective distance from the contact points of the front left to the front right wheel ,meters 
+20,Suspensions: REAR_ROD_LENGTH ,Adjusts the ride height of the vehicle. Similar to coil-over adjustment of a vehicle ,meters 
+21,Suspensions: REAR_SPRING_RATE ,The effective spring rate of the suspension corner from the wheel contact ,Nm 
+22,Suspensions: REAR_STATIC_CAMBER ,The angles of the rear wheels looking from a front-view. Negative camber is where the bottom-most section of the tyre is further outboard then the top-most ,degrees 
+23,Suspensions: REAR_TOE_OUT ,The angle of the rear wheels from a top-view perspective. Negative values represent the rear wheels “toeing inwards” from neutral. ,meters 
+24,Suspensions: REAR_TRACK ,The effective distance from the contact points of the rear left to the rear right wheel ,meters 
+25,Suspensions: FRONT_DAMP_FAST_REBOUND ,The damping contribution of the front dampers where it is “rebounding” from a fast impact. ,Ns/m 
+26,Suspensions: REAR_BUMP_STOP_RATE ,The spring rate of the rear shocks “bump stops” ,Nm 
+27,Suspensions: REAR_DAMP_BUMP ,The damping contribution of the rear dampers where it is “compressing” due to a slow impact. ,Ns/m 
+28,Suspensions: REAR_DAMP_FAST_BUMP ,The damping contribution of the rear dampers where it is “compressing” due to a fast impact. ,Ns/m 
+29,Suspensions: REAR_DAMP_FAST_REBOUND ,The damping contribution of the rear dampers where it is “rebounding” from a fast impact.  ,Ns/m 
+30,Suspensions: REAR_DAMP_REBOUND ,The damping contribution of the rear dampers where it is “rebounding” from a slow impact. ,Ns/m 
+31,Suspensions: REAR_PACKER_RANGE ,Total length of suspension trave for the rear shocks ,m 
+32,Tyres: FRONT_PREESSURE_STATIC ,The effective static pressure of the front tyre ,PSI 
+33,Tyres: REAR_PRESSURE_STATIC ,The effective static pressure of the rear tyre ,PSI 
