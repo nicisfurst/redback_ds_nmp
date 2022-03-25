@@ -1,3 +1,5 @@
 .vscode/
 data/raw/data*
 *.code-workspace
+__pycache__/
+*.pyc
